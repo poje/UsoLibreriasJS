@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tricks</title>
+
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    
+    <article>
+        <p>Usando Select2</p>
+        <select class="ddl" id="selectAxios">
+            <option value="0"></option>
+        </select>
+        <select class="ddl" id="selectFetch">
+            <option value="0"></option>
+        </select>
+        <select class="ddl" id="selectAjax">
+            <option value="0"></option>
+        </select>
+    </article>
+
+    <hr>
+
+    <article>
+        <p>Usando Jquery DataTables</p>
+        <table id="tablaEjemplo">
+            <thead>
+                <th>Nemotecnico</th>
+                <th>Nombre</th>
+                <th>Capital</th>
+                <th>Bandera</th>
+                <th>Zona donde se ubica</th>
+                <th>Archivo</th>
+                <th>Archivo 2</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </article>
+
+    <hr>
+
+    <article>
+        <p>Usando Jquery Max Length</p>
+        <!-- Se puede asignar un maxlength propiedad de html5 para limitar el ingreso de datos -->
+        <!-- sin embargo, graficamente no se muestra esto, para esto podríamos usar jquery.maxlength -->
+        <textarea name="" id="textareaTest" cols="30" rows="10" maxlength="50"></textarea>
+    </article>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+    <script src="lib/jquery.plugin.min.js"></script>
+    <script src="lib/jquery.maxlength.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
